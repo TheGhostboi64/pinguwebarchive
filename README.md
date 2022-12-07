@@ -9,7 +9,7 @@ https://ruffle.rs
 
 # What will it include?
 
-Games and so much fun!
+Everything that was archived possible from the OG pingu website except the Japanese website.
 
 # Where can i see this cool project?
 
