@@ -4,7 +4,6 @@
 </head>
 <body>
 <center>
-<div id="container">
 <script>
     window.RufflePlayer = window.RufflePlayer || {};
 window.RufflePlayer.config = {
@@ -14,13 +13,16 @@ window.RufflePlayer.config = {
 "upgradeToHttps": window.location.protocol === "https:",
 };
 </script>
+    <div id="container">
 <script>
     window.addEventListener("load", (event) => {
         const ruffle = window.RufflePlayer.newest();
         const player = ruffle.createPlayer();
         const container = document.getElementById("container");
         container.appendChild(player);
-        player.load("eskimo_disco.swf");
+        player.load("shell.swf");
+        player.style.width = "100%";
+        player.style.height = "100%";
     });
 </script>
 </div>
