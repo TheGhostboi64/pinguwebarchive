@@ -13,6 +13,7 @@ window.RufflePlayer.config = {
 };
 </script>
     <div id="container">
+    <div style="z-index:100; position: fixed;">
 <script>
     window.addEventListener("load", (event) => {
         const ruffle = window.RufflePlayer.newest();
@@ -28,6 +29,23 @@ player.style.width = "100%";
 player.style.height = "100%";
     });
 </script>
+</div>
+</div>
+<div id="movie">
+<div style="z-index:-1;">
+<script>
+    window.addEventListener("load", (event) => {
+        const ruffle = window.RufflePlayer.newest();
+        const player = ruffle.createPlayer();
+        const container = document.getElementById("movie");
+        container.appendChild(player);
+        player.load({
+url: "https://theghostboi64.github.io/pinguwebarchive/uk/m/eskimo_disco.swf",
+parameters: "",
+allowScriptAccess: "always",
+});
+</script>
+</div>
 </div>
 </center>
 </body>
