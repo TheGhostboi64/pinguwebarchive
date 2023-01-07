@@ -1,0 +1,29 @@
+<html>
+<head>
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+</head>
+<body>
+<center>
+<div id="container">
+<script>
+    window.RufflePlayer = window.RufflePlayer || {};
+window.RufflePlayer.config = {
+"autoplay": "auto",
+quality": "high",
+"base": "/m/"
+"upgradeToHttps": window.location.protocol === "https:",
+};
+</script>
+<script>
+    window.addEventListener("load", (event) => {
+        const ruffle = window.RufflePlayer.newest();
+        const player = ruffle.createPlayer();
+        const container = document.getElementById("container");
+        container.appendChild(player);
+        player.load("eskimo_disco.swf");
+    });
+</script>
+</div>
+</center>
+</body>
+</html>
