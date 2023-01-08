@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<games_slab>
+	<game linkage="snowball_img" url="snowball-intro.htm">
+		<![CDATA[Snowball Shootout Game!]]>
+	</game>
+	<game linkage="fishy_img" url="something-fishy.htm">
+		<![CDATA[Something Fishy Game!]]>
+	</game>
+	<game linkage="porridge_img" url="fish-porridge.htm">
+		<![CDATA[Fish Porridge Recipe]]>
+	</game>
+	<game linkage="desktop_img" url="">
+		<![CDATA[Download Pingu To Your Desktop]]>
+	</game>
+	<game linkage="wallpapers_img" url="wallpapers.htm">
+		<![CDATA[Downloadable Wallpapers]]>
+	</game>
+	<game linkage="horoscopes_img" url="horoscope.htm">
+		<![CDATA[Horoscopes]]>
+	</game>
+	<game linkage="boogaloo_img" url="boogaloo.htm">
+		<![CDATA[Pingu Boogaloo]]>
+	</game>
+	<game linkage="comic_img" url="comics.htm">
+		<![CDATA[Comic Strip]]>
+	</game>
+	<game linkage="pinguinese_img" url="translator.htm">
+		<![CDATA[Speak Pinguinese!]]>
+	</game>
+</games_slab>
