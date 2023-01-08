@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quicklinks>
+	<section id="1" title="Home" link="index.htm" />
+	<section id="2" title="What's New">
+		<link id="1" title="News" link="news.htm" />
+<!-- 
+		<link id="2" title="Live Events" link="live-events.htm" />
+		<link id="3" title="Products" link="products.htm" />
+-->
+	</section>
+	<section id="3" title="Activities &amp; Games">
+		<link id="1" title="Eskimo Disco" link="eskimo-disco.htm" />
+		<link id="2" title="Fish Porridge" link="fish-porridge.htm" />
+		<link id="3" title="Pingu Translator" link="translator.htm" />
+		<link id="4" title="Horoscopes" link="horoscope.htm" />
+		<link id="5" title="Pingu Boogaloo" link="boogaloo.htm" />
+		<link id="6" title="Snowball Game" link="snowball-intro.htm" />
+	</section>
+	<section id="4" title="Pingu Downloads">
+		<link id="1" title="Wallpapers" link="wallpapers.htm" />
+		<link id="2" title="Pingu Episodes" link="episode-download.htm" />
+	</section>
+	<section id="5" title="About Pingu">
+		<link id="1" title="Brand History" link="brand-history.htm" />
+		<link id="2" title="Pingu Facts" link="pingu-facts.htm" />
+	</section>
+	<section id="6" title="Fun with Pingu">
+		<link id="1" title="Pingu's Pranks" link="pingu-pranks.htm" />
+	</section>
+	<!-- <section id="7" title="Join Us!" link="" /> -->
+</quicklinks>
