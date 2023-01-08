@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<whale>
+	<door name="about" x="477.4" y="310.4" external_link="about-pingu.htm"></door>
+	<door name="games" x="280.4" y="282.3" external_link="games.htm"></door>
+	<door name="watch" x="379.9" y="294.5" external_link="watch.htm"></door>
+	<door name="shop" x="562.4" y="313.9" external_link="http://www.hitstoreuk.com/Pingu/department.html?b=pingu"></door>
+</whale>
