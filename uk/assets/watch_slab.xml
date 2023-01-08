@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<games_slab>
+	<game linkage="episode_img" url="episode-download.htm">
+		<![CDATA[Watch An Episode!]]>
+	</game>
+	<game linkage="pranks_img" url="pingu-pranks.htm">
+		<![CDATA[Watch Pingu's Pranks!]]>
+	</game>
+	<game linkage="eskimo_img" url="eskimo-disco.htm">
+		<![CDATA[Eskimo Disco - Pingu's Pop Video!]]>
+	</game>
+</games_slab>
