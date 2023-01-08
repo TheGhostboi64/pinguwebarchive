@@ -1,10 +1,16 @@
 <html>
 <head>
+<style>
+div {
+  z-index: 100;
+}
+</style>
 <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
 </head>
 <body>
 <center>
-    <div id="container"> 
+    <div id="container">
+    <div style="z:index
 <script>
     window.RufflePlayer = window.RufflePlayer || {};
 window.RufflePlayer.config = {
@@ -14,11 +20,28 @@ window.RufflePlayer.config = {
 "upgradeToHttps": window.location.protocol === "https:",
 };
 </script>
-        <script>
+   <script>
     window.addEventListener("load", (event) => {
         const ruffle = window.RufflePlayer.newest();
         const player = ruffle.createPlayer();
         const container = document.getElementById("container");
+        container.appendChild(player);
+        player.load({
+url: "https://theghostboi64.github.io/pinguwebarchive/uk/m/shell.swf",
+parameters: "",
+allowScriptAccess: "always",
+});
+        player.style.width = "755px";
+        player.style.height = "474px";
+    });
+</script>     
+</div>
+<div id="container1">
+<script>
+    window.addEventListener("load", (event) => {
+        const ruffle = window.RufflePlayer.newest();
+        const player = ruffle.createPlayer();
+        const container = document.getElementById("container1");
         container.appendChild(player);
         player.load({
 url: "https://theghostboi64.github.io/pinguwebarchive/uk/m/eskimo_disco.swf",
