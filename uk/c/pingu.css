@@ -5,5 +5,9 @@
 body { background: url(../i/bg.gif); }
   
   /* flash styling */
-body.flashversion div#container1 { width: 790px; height: 616px; margin: 0px auto 0 auto; }
+div#container1 { 
+width: 790px;
+height: 616px; 
+margin: 0px auto 0 auto;
+top: 20px; }
 }
