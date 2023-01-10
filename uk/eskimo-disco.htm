@@ -6,7 +6,7 @@
 <body>
 <center>
     <div id="page">
-    <div id="container">
+    <div id="container" style="z-index:2;">
 <script>
     window.RufflePlayer = window.RufflePlayer || {};
 window.RufflePlayer.config = {
@@ -28,7 +28,7 @@ window.RufflePlayer.config = {
     });
 </script>     
 </div>
-    <div id="container1">
+    <div id="container1" style="z-index:1;position:absolute;margin:auto;top:0;right:0;bottom:0;left:0;">
         <script>
     window.addEventListener("load", (event) => {
         const ruffle = window.RufflePlayer.newest();
