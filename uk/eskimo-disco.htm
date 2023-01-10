@@ -16,6 +16,7 @@ window.RufflePlayer.config = {
 "autoplay": "auto",
 "quality": "high",
  "wmode": "transparent",
+"parameters": "content_uri=m/"+flash_uri",
 "upgradeToHttps": window.location.protocol === "https:",
 };
 </script>
@@ -25,13 +26,9 @@ window.RufflePlayer.config = {
         const player = ruffle.createPlayer();
         const container = document.getElementById("container");
         container.appendChild(player);
-        player.load({
-url: "https://theghostboi64.github.io/pinguwebarchive/uk/m/shell.swf",
-parameters: "",
-allowScriptAccess: "always",
-});
-        player.style.width = "755px";
-        player.style.height = "474px";
+        player.load("shell.swf");
+        player.style.width = "100%";
+        player.style.height = "100%";
     });
 </script>     
 </div>
