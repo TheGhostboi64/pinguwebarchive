@@ -27,6 +27,14 @@ window.RufflePlayer.config = {
 </script>     
 </div>
     <div id="container1">
+<script>
+    window.RufflePlayer = window.RufflePlayer || {};
+window.RufflePlayer.config = {
+"autoplay": "auto",
+"quality": "high",
+"upgradeToHttps": window.location.protocol === "https:",
+};
+</script>
         <script>
     window.addEventListener("load", (event) => {
         const ruffle = window.RufflePlayer.newest();
@@ -34,6 +42,9 @@ window.RufflePlayer.config = {
         const container = document.getElementById("container1");
         container.appendChild(player1);
         player1.load("m/eskimo_disco.swf");
+        player1.style.width = "790px";
+        player1.style.height = "616px";
+
     });
 </script>
         </div>
