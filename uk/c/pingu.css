@@ -1,13 +1,6 @@
-@media screen {
 
-/* generic styling */
+
+
 
 body { background: url(../i/bg.gif); }
-  
-  /* flash styling */
-#container1 { 
-width: 790px;
-height: 616px; 
-margin: 0px auto 0 auto;
-top: 20px; }
-}
+div#container1 { width: 790px; height: 616px; margin: 0px auto 0 auto; top: 100px; z-index: -1; }
