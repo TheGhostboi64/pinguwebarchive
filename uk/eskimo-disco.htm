@@ -33,6 +33,17 @@ window.RufflePlayer.config = {
     });
 </script>     
 </div>
+<div id="container1">
+<script>
+    window.addEventListener("load", (event) => {
+        const ruffle = window.RufflePlayer.newest();
+        const player = ruffle.createPlayer();
+        const container = document.getElementById("flash_uri");
+        container.appendChild(player);
+        player.load("m/eskimo_disco.swf");
+    });
+</script>
+</div>
 </center>
 </body>
 </html>
