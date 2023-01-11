@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<comics>
+	<comic src="assets/comics/pingu-strip1.swf" />
+	<comic src="assets/comics/pingu-strip2.swf" />
+	<comic src="assets/comics/pingu-strip3.swf" />
+</comics>
