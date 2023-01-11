@@ -6,36 +6,24 @@
 <body>
 <center>
     <div id="page">
-    <div id="container">
+<div id="container" style="position:absolute;margin:auto;top:0;right:0;bottom:0;left:0;">
 <script>
     window.RufflePlayer = window.RufflePlayer || {};
 window.RufflePlayer.config = {
 "autoplay": "auto",
 "quality": "high",
- "wmode": "transparent",
 "upgradeToHttps": window.location.protocol === "https:",
 };
-</script>
-   <script>
-    window.addEventListener("load", (event) => {
-        const ruffle = window.RufflePlayer.newest();
-        const player2 = ruffle.createPlayer();
-        const container = document.getElementById("container");
-        container.appendChild(player2);
-        player2.load("m/shell.swf");
-    });
 </script>     
-</div>
-    <div id="container1" style="position:absolute;margin:auto;top:0;right:0;bottom:60px;left:0;">
         <script>
     window.addEventListener("load", (event) => {
         const ruffle = window.RufflePlayer.newest();
-        const player1 = ruffle.createPlayer();
-        const container = document.getElementById("container1");
+        const player = ruffle.createPlayer();
+        const container = document.getElementById("container");
         container.appendChild(player1);
-        player1.load("m/eskimo_disco.swf");
-        player1.style.width = "790px";
-        player1.style.height = "616px";
+        player.load("m/eskimo_disco.swf");
+        player.style.width = "790px";
+        player.style.height = "616px";
     });
 </script>
         </div>
