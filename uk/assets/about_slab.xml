@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<games_slab>
+	<game linkage="biographies_img" url="biographies.htm">
+		<![CDATA[Biographies]]>
+	</game>
+	<game linkage="charity_img" url="charity.htm">
+		<![CDATA[Charity]]>
+	</game>
+	<game linkage="facts_img" url="pingu-facts.htm">
+		<![CDATA[Pingu Facts!]]>
+	</game>
+	<game linkage="gallery_img" url="image-gallery.htm">
+		<![CDATA[Gallery]]>
+	</game>
+	<game linkage="history_img" url="brand-history.htm">
+		<![CDATA[History]]>
+	</game>
+	<game linkage="news_img" url="news.htm">
+		<![CDATA[News]]>
+	</game>
+</games_slab>
