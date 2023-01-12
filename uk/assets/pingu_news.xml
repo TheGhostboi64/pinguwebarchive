@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+	news_items
+	Created by Jason Cale on 2006-10-20.
+	Copyright (c) 2006 Bionic Communications Ltd. All rights reserved.
+-->
+
+<news_items>
+	<item id="1" created_at="20-10-2006">
+		<title>Pingu has made his debut on Youtube!</title>
+		<article><![CDATA[<p>Watch the fantastic Eskimo Disco '7-11' music video featuring Pingu!</p><br /><p><a href="http://www.youtube.com/watch?v=h7RcqRmBlIQ" target="_blank">Click here to visit Youtube</a></p>]]></article>
+	</item>
+	<item id="2" created_at="20-10-2006">
+		<title>Pingu on MySpace</title>
+		<article><![CDATA[<p>Become ‘friends’ with Pingu by visiting his very own MySpace Page!</p><br /><p><a href="http://www.myspace.com/pingusplace" target="_blank">Click here</a> to make friends!</p>]]></article>
+	</item>
+	<item id="3" created_at="19-10-2006">
+		<title>Pingu DVD Release</title>
+		<article><![CDATA[<p>The best new Pingu episodes will all be available on the new ‘Platinum Collection’ DVD</p><br /><p>Out in January!</p>]]></article>
+	</item>
+	<item id="4" created_at="17-10-2006">
+		<title>Pingu at Butlins</title>
+		<article><![CDATA[<p>Pingu regularly appears as a meet and greet character across all 3 Butlins resorts.</p><br /> <p>Visit Butlins and you could have the chance to meet him!</p>]]></article>
+	</item>
+</news_items>
