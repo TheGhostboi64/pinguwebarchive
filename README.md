@@ -1,4 +1,4 @@
-# pinguwebarchive
+# Pingu Web Archive
 An website archive on the old website of Pingu.
 
 # CREDITS
