@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><pingu_horoscopes>
+	<horoscope id="1" sign="Scorpio" flv="scorpio.flv" start_date="24/10" end_date="21/11">
+		<forecast><![CDATA[Secrets, secrets, secrets... There could be a few in the air this month, so make sure you keep them to yourself.
+For example, I know it would upset my mum to know that I’ve already found and opened all this year’s Christmas presents... so I don’t tell her.]]></forecast>
+	</horoscope>
+	<horoscope id="2" sign="Sagittarius" flv="sagittarius.flv" start_date="22/11" end_date="21/12">
+		<forecast><![CDATA[You crazy Sagittarians, always cracking jokes and breaking the ice. You’re the life and soul of the party. 
+...But just remember you can sometimes be tactless too, so take a moment to think before you tell your host their Christmas pudding looks like rabbit droppings.]]></forecast>
+	</horoscope>
+	<horoscope id="3" sign="Capricorn" flv="capricorn.flv" start_date="22/12" end_date="19/01">
+		<forecast><![CDATA[Don’t work too hard this month - remember Christmas is nearly here! Believe me... taking a break from typing assignments to check out this website will make you a happier, more festive penguin.]]></forecast>
+	</horoscope>
+	<horoscope id="4" sign="Aquarius" flv="aries.flv" start_date="20/01" end_date="19/02">
+		<forecast><![CDATA[You Aquarians should be letting your hair down too. Remember you can be inflexible ... so if you’re finding life a strain, take a leaf out of my book and streeeeetch]]></forecast>
+	</horoscope>
+	<horoscope id="5" sign="Pisces" flv="pisces.flv" start_date="20/02" end_date="20/03">
+		<forecast><![CDATA[I am of course a Pisces. What can I say? We are a fast talking, fun-filled, fish-loving breed. (Modesty is for Virgos...)”]]></forecast>
+	</horoscope>
+	<horoscope id="6" sign="Aries" flv="aries.flv" start_date="21/03" end_date="19/04">
+		<forecast><![CDATA[It’s the season of good will, so make sure you keep that Aries temper in check this month! ... I never lose my temper. Never!
+... What are YOU staring at??!!”]]></forecast>
+	</horoscope>
+	<horoscope id="7" sign="Taurus" flv="taurus.flv" start_date="20/04" end_date="20/05">
+		<forecast><![CDATA[Taureans have a great appetite for life, but don’t be greedy this holiday season. Feeling full of festive food can be a drag. I wouldn’t know of course. I always know when to stop. ..
+Now ... where have all my mince pies gone? And why is my keyboard full of crumbs...?]]></forecast>
+	</horoscope>
+	<horoscope id="8" sign="Gemini" flv="gemini.flv" start_date="21/05" end_date="20/06">
+		<forecast><![CDATA[Christmas shopping can lead to short tempers in the toy aisles! If things get a bit frosty this month, why not use a double helping of that old Gemini charm to thaw things out? Always works for me! Nug Nug!]]></forecast>
+	</horoscope>
+	<horoscope id="9" sign="Cancer" flv="cancer.flv" start_date="21/06" end_date="22/07">
+		<forecast><![CDATA[Make sure you resist the temptation to get moody as the nights draw in this month... 
+Be glad you don’t live in the Antarctic, where it can be night-time for months on end...]]></forecast>
+	</horoscope>
+	<horoscope id="10" sign="Leo" flv="leo.flv" start_date="23/07" end_date="22/08">
+		<forecast><![CDATA[Give free rein to your Leo creativity this month when planning your Christmas party.
+I always like to warm things up by showing off my baddest breakdancing moves. But only attempt the ‘Crouching Krill’ if you’re as experienced as me...]]></forecast>
+	</horoscope>
+	<horoscope id="11" sign="Virgo" flv="virgo.flv" start_date="23/08" end_date="22/09">
+		<forecast><![CDATA[Modest old Virgo... always playing down your incredible looks and talent. You know, I’m often mistaken for a Virgo. 
+...But modesty is overrated if you ask fantastic little Piscean me.]]></forecast>
+	</horoscope>
+	<horoscope id="12" sign="Libra" flv="libra.flv" start_date="23/09" end_date="23/10">
+		<forecast><![CDATA[Embrace your romantic side this month and plan a heart-warming winter treat for your penguin friend. Be sure it’s going to be something they’ll like. I’m still not sure that Pingi really enjoyed the seal wrestling championships I took her to last year...]]></forecast>
+	</horoscope>
+</pingu_horoscopes>
