@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+	Hotspots for igloo page
+	Created by Jason Cale on Tuesday; October 3, 2006
+	Copyright (c) 2006 Bionic Communications Ltd. All rights reserved.
+--><hotspots>
+	<hotspot lib_id="wallpaper_mc" title="Pingu Wallpapers" x="170" y="170" content_url="wallpapers.htm"/>
+	<hotspot lib_id="fish_porridge_mc" title="Fish Porridge Recipe" x="-162.0" y="4.0" content_url="fish-porridge.htm"/>
+	<hotspot lib_id="games_mc" title="Fun &amp; Games" x="-287.9" y="97.0" content_url="game-select.htm"/>
+	<hotspot lib_id="brand_history_mc" title="Brand History" x="-124.5" y="-119.5" content_url="brand-history.htm"/>
+	<hotspot lib_id="radio_mc" title="Pingu &amp; Eskimo Disco!" x="-361.9" y="-17.5" content_url="eskimo-disco.htm"/>
+	<hotspot lib_id="tv_mc" title="Watch Pingu Episodes" x="-330.9" y="-96.5" content_url="episode-download.htm"/>
+	<hotspot lib_id="biography_mc" title="Family Biographies" x="77.7" y="-182.0" content_url="biographies.htm"/>
+	<!--<hotspot lib_id="colouring_in_mc" title="Download Pingu Artwork" x="-244.7" y="-17.8" content_url="colouring-in.htm" />-->
+	<hotspot lib_id="comic_mc" title="Pingu Comics" x="104.0" y="10.0" content_url="comics.htm"/>
+</hotspots>
