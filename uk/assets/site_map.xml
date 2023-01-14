@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><site_map>
+	<page id="1">
+		<link title="PINGU HISTORY" uri="brand-history.htm">The history of the greatest Penguin in the world!</link>
+		<link title="PINGU FACTS" uri="pingu-facts.htm">Learn lots of Pingu facts here!</link>
+		<link title="BIOGRAPHIES" uri="biographies.htm">Biographies and pictures of Pingu, his family and his friends...</link>
+		<link title="PINGU NEWS" uri="news.htm">What's new Pingu?
+	Come and find out in the news section</link>
+		<link title="PINGU EPISODES" uri="episode-download.htm">Watch an episode of Pingu right now!</link>
+		<link title="PINGU MOBILE CONTENT" uri="google.com">Purchase fantastic Pingu mobile content</link>
+		<link title="PINGU'S PRANKS" uri="pingu-pranks.htm">Watch hilarious clips of Pingu at his most mischievous here!</link>
+		<link title="PINGU WALLPAPERS" uri="wallpapers.htm">Download a fantastic Pingu wallpaper!</link>
+		<link title="SOMETHING FISHY" uri="something-fishy.htm">Play the game now!</link>
+		<link title="PINGU'S SNOWBALL SHOOTOUT" uri="snowball-intro.htm">Play the game now!</link>
+	</page>
+	<page id="2">
+		<link title="PINGU BOOGALOO" uri="boogaloo.htm">Play the game now!</link>
+		<link title="ESKIMO DISCO" uri="eskimo-disco.htm">Watch Pingu in his pop music video debut!</link>
+		<link title="PENGUINESE TRANSLATOR" uri="translator.htm">Speak Penguinese here!</link>
+		<link title="HOROSCOPES" uri="horoscope.htm">What does the future hold for you? Pingu knows!</link>
+		<link title="FISH PORRIDGE RECIPE" uri="fish-porridge.htm">Learn how to make delicious fish porridge... Yummy!</link>
+		<link title="PHOTO GALLERY" uri="image-gallery.htm">Lots of pictures of Pingu and the gang!</link>
+		<!--<link title="DOWNLOAD PINGU ART" uri="colouring-in.htm">Pingu pictures to download and colour in!</link>-->
+		<link title="PINGU'S COMIC STRIPS" uri="comics.htm">Click here and read more!</link>
+		<link title="CHARITY" uri="charity.htm">Pingu proudly supports Deafblind UK...</link>
+	</page>
+</site_map>
