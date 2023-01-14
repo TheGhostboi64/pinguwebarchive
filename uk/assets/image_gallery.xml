@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><image_gallery>
+	<sheet thumb="assets/image_gallery/thumbnails/1.jpg" fullsize="assets/image_gallery/large/1.jpg"/>
+	<sheet thumb="assets/image_gallery/thumbnails/2.jpg" fullsize="assets/image_gallery/large/2.jpg"/>
+	<sheet thumb="assets/image_gallery/thumbnails/3.jpg" fullsize="assets/image_gallery/large/3.jpg"/>
+	<sheet thumb="assets/image_gallery/thumbnails/4.jpg" fullsize="assets/image_gallery/large/4.jpg"/>
+	<sheet thumb="assets/image_gallery/thumbnails/5.jpg" fullsize="assets/image_gallery/large/5.jpg"/>
+	<sheet thumb="assets/image_gallery/thumbnails/6.jpg" fullsize="assets/image_gallery/large/6.jpg"/>
+	<sheet thumb="assets/image_gallery/thumbnails/7.jpg" fullsize="assets/image_gallery/large/7.jpg"/>
+	<sheet thumb="assets/image_gallery/thumbnails/8.jpg" fullsize="assets/image_gallery/large/8.jpg"/>
+</image_gallery>
