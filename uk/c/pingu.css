@@ -1,18 +1,93 @@
+@media screen {
+
+/* generic styling */
+
 body { background-image: url(../i/c_bg.gif); background-repeat: repeat-x; }
-div#page { background: white; width: 600px; margin: 1em auto; padding: 10px; }
-div#mh { width: 600px; height: 80px; background: white url(/i/mh_blank.jpg); }
-div#mh_brand_history { background: url(../i/mh_history.jpg); }
-div#mh_about { background: url(../i/mh_about.jpg); }
-div#mh_activities { background: url(../i/mh_activities.jpg); }
-div#mh_downloads { background: url(../i/mh_downloads.jpg); }
-div#mh_episodes { background: url(../i/mh_episodes.jpg); }
-div#mh_facts { background: url(../i/mh_facts.jpg); }
-div#mh_fishporridge { background: url(../i/mh_fishporridge.jpg); }
-div#mh_history { background: url(../i/mh_history.jpg); }
-div#mh_home { background: url(../i/mh_home.jpg); }
-div#mh_horoscopes { background: url(../i/mh_horoscopes.jpg); }
-div#mh_wallpaper { background: url(../i/mh_wallpaper.jpg); }
-div#mh_whatsnew { background: url(../i/mh_whatsnew.jpg); }
+
 div#screen-switcher { font-size: 0.6em; margin-bottom: 5px; text-align: right; }
 div#screen-switcher select#select-screen-switcher { font-size: 1em; }
 div#screen-switcher fieldset { border: none; }
+
+div#html-content { display: none; }
+
+/* flash styling */
+
+body.flashversion div#screen-switcher { position: absolute; top: 0; right: 0; padding: 2px 5px; }
+body.flashversion div#screen-switcher span { color: white; font-weight: bold; }
+
+body.flashversion div#page { background: transparent; min-height: 595px; }
+body.flashversion div#flash-content { width: 790px; height: 616px; margin: 0px auto 0 auto; }
+body.flashversion div#html-content { display: none; }
+
+div#flash_not_found { background: white; padding: 1em 2em; }
+div#flash_not_found h1 { font-size: 1.3em; margin-bottom: 0.3em; }
+div#flash_not_found p { font-size: 0.9em; color: #003399; margin-bottom: 1em; }
+div#flash_not_found h2 { font-size: 1.1em; }
+div#flash_not_found a { padding: 0.2em 0.5em; border: 1px solid black; }
+div#flash_not_found a:hover { text-decoration: none; background: #000; color: #fff; }
+
+/* html only styling */
+
+body.textversion div#html-content { display: block; }
+
+body.textversion div#flash-content { display: none; }
+body.textversion div#page { background: white; width: 600px; margin: 1em auto; padding: 10px; }
+body.textversion div.mh { width: 600px; height: 80px; background: white url(../i/mh_blank.jpg); }
+body.textversion div#mh_brand_history { background: url(../i/mh_history.jpg); }
+body.textversion div#mh_about { background: url(../i/mh_about.jpg); }
+body.textversion div#mh_activities { background: url(../i/mh_activities.jpg); }
+body.textversion div#mh_downloads { background: url(../i/mh_downloads.jpg); }
+body.textversion div#mh_episodes { background: url(../i/mh_episodes.jpg); }
+body.textversion div#mh_facts { background: url(../i/mh_facts.jpg); }
+body.textversion div#mh_fishporridge { background: url(../i/mh_fishporridge.jpg); }
+body.textversion div#mh_history { background: url(../i/mh_history.jpg); }
+body.textversion div#mh_home { background: url(../i/mh_home.jpg); }
+body.textversion div#mh_horoscopes { background: url(../i/mh_horoscopes.jpg); }
+body.textversion div#mh_wallpaper { background: url(../i/mh_wallpaper.jpg); }
+body.textversion div#mh_whatsnew { background: url(../i/mh_whatsnew.jpg); }
+
+body.textversion ul#main_nav { 
+	background: url(../i/main_nav.gif); position: relative; 
+	top: 0; left: 0; 
+	width: 363px; height: 9px; 
+	margin: 10px 0; 
+}
+
+body.textversion ul#main_nav li { position: absolute; top: 0; height: 9px; }
+body.textversion ul#main_nav a { text-indent: -3000px; display: block; font-size: 0.5em; }
+
+body.textversion li#link_home { left: 0; width:40px; }
+body.textversion li#link_new { left: 43px; width: 75px; }
+body.textversion li#link_activities { left: 125px; width: 65px; }
+body.textversion li#link_downloads { left: 195px; width: 80px; }
+body.textversion li#link_about { left: 280px; width: 83px; }
+
+body.textversion li#link_home a:hover { background: url(../i/main_nav.gif) 0 9px; }
+body.textversion li#link_new a:hover { background: url(../i/main_nav.gif) -43px 9px; }
+body.textversion li#link_activities a:hover { background: url(../i/main_nav.gif) -125px 9px; }
+body.textversion li#link_downloads a:hover { background: url(../i/main_nav.gif) -195px 9px; }
+body.textversion li#link_about a:hover { background: url(../i/main_nav.gif) -280px 9px; }
+
+body.textversion div#copy-col { width:350px; float:left; }
+body.textversion div#copy-col p,
+body.textversion div#copy-col li,
+body.textversion div#copy-col h2,
+body.textversion div#copy-col h3 { color: #006699; } 
+body.textversion div#copy-col h2 { font-size: 1em; margin-bottom: 1em; }
+body.textversion div#copy-col h3 {font-size: 0.9em;}
+body.textversion div#copy-col p, body.textversion div#copy-col li { font-size: 0.8em; }
+body.textversion div#copy-col p {  margin: 1em 0; }
+body.textversion div#copy-col ol { margin-left: 1em; padding-left: 1em; list-style-type: decimal; }
+body.textversion div#copy-col ol li { margin: 1em 0; }
+body.textversion div#copy-col ul { margin: 1em 0 1em 1em; }
+body.textversion div#copy-col a { text-decoration: underline; font-size: 1em; color: #006699; } 
+body.textversion div#copy-col a:hover { text-decoration: none; background: #006699; color: #fff; }
+
+body.textversion div#image-col { float: right; width: 231px; }
+body.textversion div#image-col img { margin-bottom: 10px; }
+
+div#intro { width: 600px; height: 474px; background: url(../i/intro_page.jpg); position: relative; }
+h1.access, a.access  { text-indent: -3000px; position: absolute; }
+div#intro a#enter-website { display: block; height: 133px; width: 133px; bottom: 4px; right: 7px; }
+div#intro a.return-to-site { background: url(../i/launch_btn.png) 0 -133px; }
+div#intro a { background: url(../i/launch_btn.png) no-repeat; }
