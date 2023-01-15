@@ -1,1 +1,15 @@
 body { background-image: url(../i/c_bg.gif); background-repeat: repeat-x; }
+div#page { background: white; width: 600px; margin: 1em auto; padding: 10px; }
+div#mh { width: 600px; height: 80px; background: white url(/i/mh_blank.jpg); }
+div#mh_brand_history { background: url(../i/mh_history.jpg); }
+div#mh_about { background: url(../i/mh_about.jpg); }
+div#mh_activities { background: url(../i/mh_activities.jpg); }
+div#mh_downloads { background: url(../i/mh_downloads.jpg); }
+div#mh_episodes { background: url(../i/mh_episodes.jpg); }
+div#mh_facts { background: url(../i/mh_facts.jpg); }
+div#mh_fishporridge { background: url(../i/mh_fishporridge.jpg); }
+div#mh_history { background: url(../i/mh_history.jpg); }
+div#mh_home { background: url(../i/mh_home.jpg); }
+div#mh_horoscopes { background: url(../i/mh_horoscopes.jpg); }
+div#mh_wallpaper { background: url(../i/mh_wallpaper.jpg); }
+div#mh_whatsnew { background: url(../i/mh_whatsnew.jpg); }
