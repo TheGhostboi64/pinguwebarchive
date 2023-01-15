@@ -1,0 +1,12 @@
+/* -- undo HTML -- */
+:link,:visited {text-decoration: none;}
+ul,ol {list-style: none;}
+h1,h2,h3,h4,h5,h6,pre,code,p {font-size: 1em;}
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input {margin: 0; padding: 0; font-family: Arial, Helvetica, Verdana, sans-serif;}
+a img,:link img,:visited img { border: none; text-decoration: none; }
+a, a:link, a:visited { color: black; }
+
+/* remove element out of document flow */
+.remove { position: absolute; }
+
+.clear { clear: both; }
