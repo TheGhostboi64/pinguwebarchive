@@ -13,3 +13,6 @@ div#mh_home { background: url(../i/mh_home.jpg); }
 div#mh_horoscopes { background: url(../i/mh_horoscopes.jpg); }
 div#mh_wallpaper { background: url(../i/mh_wallpaper.jpg); }
 div#mh_whatsnew { background: url(../i/mh_whatsnew.jpg); }
+div#screen-switcher { font-size: 0.6em; margin-bottom: 5px; text-align: right; }
+div#screen-switcher select#select-screen-switcher { font-size: 1em; }
+div#screen-switcher fieldset { border: none; }
