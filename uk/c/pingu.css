@@ -16,7 +16,7 @@ body.flashversion div#screen-switcher { position: absolute; top: 0; right: 0; pa
 body.flashversion div#screen-switcher span { color: white; font-weight: bold; }
 
 body.flashversion div#page { background: transparent; min-height: 595px; }
-body.flashversion div#flash-content { width: 790px; height: 616px; margin: 0px auto 0 auto; }
+body.flashversion div#flash-content { margin: 0px auto 0 auto; }
 body.flashversion div#html-content { display: none; }
 
 div#flash_not_found { background: white; padding: 1em 2em; }
