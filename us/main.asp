@@ -1,1 +1,1 @@
-<meta http-equiv = "refresh" content = "5; url = https://theghostboi64.github.io" />
+<meta http-equiv="refresh" content="0.1; URL=https://theghostboi64.github.io/pinguwebarchive/us/main.html" />
