@@ -7,6 +7,8 @@ Flash is owned by Macromedia.
 Ruffle is a WIP project that makes website be able to run flash again, also known as an emulator. 
 https://ruffle.rs
 
+I DO NOT OWN PINGU, FLASH, OR ANYTHING HERE. THIS PROJECT IS ONLY FOR PRESERVATION.
+
 # What will it include?
 
 Everything that was archived possible from the OG pingu website except the Japanese website.
