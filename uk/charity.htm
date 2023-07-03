@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>Pingu, proud supports of DeafBlind UK</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+<script src="j/prototype.js" type="text/javascript" charset="utf-8"></script>
+	<script src="j/scriptaculous.js?load=effects" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="c/pingu.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="c/basic.css" type="text/css" media="screen" charset="utf-8" />
+<script src="j/iotbs.js"></script>
+<script src="j/pingu.js"></script>
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+</head>
+<body>
+<table width="100%" height="85%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="center" valign="middle" style="vertical-align:middle;"> 
+
+    <div id="page">
+	    	<div id="screen-switcher"></div>
+<div id="flash-content">
+<script>
+    window.RufflePlayer = window.RufflePlayer || {};
+window.RufflePlayer.config = {
+"autoplay": "auto",
+"quality": "high",
+allowScriptAccess: true,
+"upgradeToHttps": window.location.protocol === "https:",
+};
+</script>     
+        <script>
+    window.addEventListener("load", (event) => {
+        const ruffle = window.RufflePlayer.newest();
+        const player = ruffle.createPlayer();
+        const container = document.getElementById("flash-content");
+        container.appendChild(player);
+        player.load("m/charity.swf");
+        player.style.width = "755px";
+        player.style.height = "474px";
+    });
+</script>
+        </div>
+        <div id="html-content">
+		<div class="mh"></div>
+		<ul id="main_nav">
+			<li id="link_home"><a href="index.htm" title="Home">Home</a></li>
+			<li id="link_new"><a href="whats-new.htm" title="Whats New">What's New</a></li>
+			<li id="link_activities"><a href="activities.htm" title="Activities">Activities</a></li>
+			<li id="link_downloads"><a href="downloads.htm" title="Downloads">Downloads</a></li>
+			<li id="link_about"><a href="about.htm" title="About Pingu">About Pingu</a></li>
+		</ul>
+		<div id="inner-content">
+			<div id="copy-col">
+                <h2>PINGU CHARITY</h2>
+                <p>This page requires JavaScript, Please enable JavaScript to see Pingu! He is the worlds most lovable penguin!</p>
+			</div>
+			<div id="image-col"></div>
+			<p class="clear"></p>
+		</div>
+	</div>
+    </div>
+	   </div>
+      </td>
+    </tr>
+</body>
+</html>
