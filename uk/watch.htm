@@ -1,5 +1,6 @@
 <html>
 <head>
+ <link rel="stylesheet" href="c/pingu.css" type="text/css" media="screen" charset="utf-8">   
 <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
 </head>
 <body>
@@ -21,9 +22,9 @@ window.RufflePlayer.config = {
         const container = document.getElementById("container");
         container.appendChild(player);
         player.load({
-url: "https://theghostboi64.github.io/pinguwebarchive/uk/m/watch_slab.swf",
+url: "m/watch_slab.swf",
 parameters: "",
-allowScriptAccess: "always",
+allowScriptAccess: true,
 });
         player.style.width = "755px";
         player.style.height = "474px";
