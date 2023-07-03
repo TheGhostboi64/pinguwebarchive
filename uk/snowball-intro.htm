@@ -24,6 +24,7 @@
 window.RufflePlayer.config = {
 "autoplay": "auto",
 "quality": "high",
+allowScriptAccess: true,
 "upgradeToHttps": window.location.protocol === "https:",
 };
 </script>     
@@ -33,7 +34,7 @@ window.RufflePlayer.config = {
         const player = ruffle.createPlayer();
         const container = document.getElementById("flash-content");
         container.appendChild(player);
-        player.load("m/snowball.swf");
+        player.load("m/snowball_intro.swf");
         player.style.width = "755px";
         player.style.height = "474px";
     });
