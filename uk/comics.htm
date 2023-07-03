@@ -10,7 +10,7 @@
 window.RufflePlayer.config = {
 "autoplay": "auto",
 "quality": "high",
- "wmode": "transparent",
+allowScriptAccess: true,
 "upgradeToHttps": window.location.protocol === "https:",
 };
 </script>
@@ -21,9 +21,9 @@ window.RufflePlayer.config = {
         const container = document.getElementById("container");
         container.appendChild(player);
         player.load({
-url: "https://theghostboi64.github.io/pinguwebarchive/uk/m/comic.swf",
+url: "m/comic.swf",
 parameters: "",
-allowScriptAccess: "always",
+allowScriptAccess: true,
 });
         player.style.width = "755px";
         player.style.height = "474px";
